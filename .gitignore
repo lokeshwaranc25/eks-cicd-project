@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+tfplan
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
